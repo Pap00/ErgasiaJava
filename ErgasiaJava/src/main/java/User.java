@@ -14,8 +14,6 @@ public class User {
 		this.contactinfo=contactinfo;
 	}
 	
-
-	
 	String getName() {
 		return name;
 	}

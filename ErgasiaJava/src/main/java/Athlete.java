@@ -17,7 +17,7 @@ public class Athlete extends User {
 	void setExperience(int Experience) {
 		this.experience=experience;
 	}
-	void setProfessional(int Professional) {
+	void setProfessional(boolean Professional) {
 		this.professional=professional;
 	}
 }

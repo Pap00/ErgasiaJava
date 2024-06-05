@@ -1,4 +1,8 @@
 
-public class Coach {
+public class Coach extends User {
+	private int degrees;
+	private char Sport;
+	
 
 }
+

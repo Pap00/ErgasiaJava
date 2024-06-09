@@ -1,5 +1,5 @@
 
-public class InterfacePriceList {
+public interface InterfacePriceList {
 
 	
 	private long int charges;

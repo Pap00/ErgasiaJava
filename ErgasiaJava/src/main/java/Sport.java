@@ -17,10 +17,10 @@ public class Sport {
 	public void setSportName() {
 		this.sportName = sportName;
 	}
-	String levelRef() {
+	String getLevelRef() {
 		return levelRef;
 	}
-	public void levelRef() {
+	public void setLevelRef() {
 		this.levelRef = levelRef;
 	}
 

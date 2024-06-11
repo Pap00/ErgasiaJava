@@ -14,13 +14,13 @@ public class Sport {
 	String getSportName() {
 		return sportName;
 	}
-	public void setSportName() {
+	public void setSportName(String sportName) {
 		this.sportName = sportName;
 	}
 	String getLevelRef() {
 		return levelRef;
 	}
-	public void setLevelRef() {
+	public void setLevelRef(String levelRef) {
 		this.levelRef = levelRef;
 	}
 

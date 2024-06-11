@@ -1,59 +1,28 @@
 
-public class Payment implements Pricelist{
+public class Sport {
 
-	private String uniqueCode;
-	private String date;
-	private String methodOfPayment;
-	private String regOrSig; //register or signup
-	private long int totalPrice;
+	private String sportName; 
+	private String levelRef; //variable to determine if 
+                            //the sport refers to professionals
 	
-	Payment(String uniqueCode,String date,String methodOfPayment,String regOrSig,long int totalPrice){
-		this.uniqueCode= uniqueCode;
-		this.date = date;
-		this.methodOfPayment = methodOfPayment;
-		this.regOrSig = regOrSig;
-		this.totalPrice = totalPrice;
+	Sport(String sportName,String levelRef ){
+	
+		this.sportName = sportName;
+		this.levelReference = levelRef;
 	}
 	
-	
-	
-	String getUniqueCode() {
-		return uniqueCode;
+	String getSportName() {
+		return sportName;
 	}
-	
-	public void setUniqueCode(String uniqueCode) {
-		this.uniqueCode = uniqueCode;
+	public void setSportName(String sportName) {
+		this.sportName = sportName;
 	}
-	
-	String getDate() {
-		return date;
+	String getLevelRef() {
+		return levelRef;
 	}
-	
-	public void setDate(String date) {
-		this.date = date;
-	}
-	
-	String getMethodOfPayment() {
-		return methodOfPayment;
-	}
-	public void setMethodOfPayment(String methodOfPayment) {
-		this.methodOfPayment = methodOfPayment;
+	public void setLevelRef(String levelRef) {
+		this.levelRef = levelRef;
 	}
 
-	String getRegOrSig() {
-		return RegOrSig;
-	}
-	
-	public void setRegOrSig(String regOrSig) {
-		this.RegOrSig= RegOrSig;
-	}
-	
-	long int getTotalPrice() {
-		return totalPrice;
-	}
-	
-	public void setTotalPrice(long int totalPrice) {
-		this.totalPrice = totalPrice;
-	}
-	
+
 }
